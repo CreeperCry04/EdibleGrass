@@ -1,0 +1,40 @@
+# EdibleGrass v1.1 configuration.
+# If you need help, contact me with one of the following methods:
+# Discord: CreeperCry04#2755
+# Spigot: Add me in a conversation: CreeperCry04
+# 
+# Now onto explanations:
+# 
+# food:
+#   # Saturation added to the player.
+#   # Set to 0 to disable.
+#   # Maximum amount is 20.
+#   saturation: 4
+#   # Food levels added to the player.
+#   # Set to 0 to disable.
+#   # Maximum amount is 20.
+#   food-levels: 2
+# rewards:
+#   # The chance is out of 100.
+#   # You may want to turn down the chance
+#   # so it isn't too overpowered; players
+#   # can and WILL grind it.
+#   chance: 20
+#   # One of these commands will be chosen and
+#   # ran by console.  The only placeholder
+#   # is %player%.  PlaceholderAPI support will
+#   # be added soon for those of you who need it.
+#   # To hide output to ops, run the following command.
+#   # /gamerule sendCommandFeedback false
+#   rewards:
+#   - give %player% diamond 1
+#   - eco give %player% 100
+
+food:
+  saturation: 4
+  food-levels: 2
+rewards:
+  chance: 20
+  rewards:
+  - 'give %player% diamond 1'
+  - 'eco give %player% 100'
