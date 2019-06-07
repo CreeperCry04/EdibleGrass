@@ -1,4 +1,4 @@
-# EdibleGrass v1.1 configuration.
+# EdibleGrass configuration.
 # If you need help, contact me with one of the following methods:
 # Discord: CreeperCry04#2755
 # Spigot: Add me in a conversation: CreeperCry04
@@ -15,16 +15,16 @@
 #   # Maximum amount is 20.
 #   food-levels: 2
 # rewards:
-#   # The chance is out of 100.
-#   # You may want to turn down the chance
-#   # so it isn't too overpowered; players
-#   # can and WILL grind it.
+#   # The chance is out of 100 (to emulate a percentage).
+#   # You may want to turn down the chance so it isn't too
+#   # overpowered; players can and WILL grind it.
+#   # Alternatively, you can just disable it with the 'disabled' boolean.
+#   disabled: false
 #   chance: 20
-#   # One of these commands will be chosen and
-#   # ran by console.  The only placeholder
-#   # is %player%.  PlaceholderAPI support will
-#   # be added soon for those of you who need it.
-#   # To hide output to ops, run the following command.
+#   # One of these commands will be chosen and ran by console.
+#   # The only placeholder is %player%.  PlaceholderAPI support
+#   # will be added soon for those of you who need it.
+#   # To hide output to operators, run the following command.
 #   # /gamerule sendCommandFeedback false
 #   rewards:
 #   - give %player% diamond 1
@@ -34,6 +34,7 @@ food:
   saturation: 4
   food-levels: 2
 rewards:
+  disabled: false
   chance: 20
   rewards:
   - 'give %player% diamond 1'
