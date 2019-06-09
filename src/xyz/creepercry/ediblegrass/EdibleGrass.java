@@ -17,8 +17,6 @@ public class EdibleGrass extends JavaPlugin {
 		getConfig().options().copyHeader(true);
 		saveConfig();
 		Bukkit.getPluginManager().registerEvents(new PlayerRightClick(), this);
-		@SuppressWarnings("unused")
-		final Metrics metrics = new Metrics(this);
 	}
 	
 	@Override
