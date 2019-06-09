@@ -4,7 +4,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import xyz.creepercry.ediblegrass.events.PlayerRightClick;
-import xyz.creepercry.ediblegrass.util.Metrics;
 
 public class EdibleGrass extends JavaPlugin {
 
