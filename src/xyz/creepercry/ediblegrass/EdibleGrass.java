@@ -12,9 +12,9 @@ public class EdibleGrass extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		instance = this;
-		getConfig().options().copyDefaults(true);
-		getConfig().options().copyHeader(true);
-		saveConfig();
+		
+		saveDefaultConfig();
+		
 		Bukkit.getPluginManager().registerEvents(new PlayerRightClick(), this);
 	}
 	
